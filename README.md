@@ -1,26 +1,7 @@
-Name
+Classification of Novels
 ====
 
-Overview
+This project classifyes six popular novels by using LSTM-RNN.
 
-## Description
-
-## Demo
-
-## VS. 
-
-## Requirement
-
-## Usage
-
-## Install
-
-## Contribution
-
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
-
-## Author
-
-[tcnksm](https://github.com/tcnksm)
+## How to run programs
+You need to run textdata_generation.py to create detasets before running novel_classification.py
