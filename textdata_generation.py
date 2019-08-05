@@ -22,13 +22,13 @@ for filename in text_list:
         text = " ".join(lines)
     sent_tokenize_list = sent_tokenize(text)
 
-    # extract textfile -> "Title\tsentence\n"
+    # extract textfile -> "Title"\t"sentence\n"
     modified_textdata_path = textdata_path.rstrip(".txt") + "_modified.txt"
     with codecs.open(modified_textdata_path, "w", encoding="utf-8") as g:
         for text in sent_tokenize_list:
             g.write(filename.rstrip(".txt") + "\t" + text + "\n")
 
-    # write text to textdataset -> "Title\tsentence\n"
+    # write text to textdataset -> "Title"\t"sentence\n"
     with codecs.open("./textdata/textdataset.txt", mode='a', encoding="utf-8") as f:
         for text in sent_tokenize_list:
             f.write(filename.rstrip(".txt") + "\t" + text + "\n")
