@@ -11,6 +11,7 @@ Required libraries are as follows
 
 $pip install numpy  
 $pip install tensorflow  
+$pip install keras  
 $pip install nltk  
 $pip install matplotlob  
 $pip install sklearn  
