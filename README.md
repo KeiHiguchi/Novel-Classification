@@ -9,7 +9,7 @@ You need to run textdata_generation.py to create datasets before running novel_c
 ## Required libraries
 Required libraries are as follows
 
-$pip install numpy
+$pip install numpy\n
 $pip install tensorflow
 $pip install nltk
 $pip install matplotlob
